@@ -14,6 +14,9 @@ body {
   color: #34495e;
   font-family: var(--font-inter);
 }
+* {
+  box-sizing: border-box;
+}
 
 #container {
   max-width: 900px;
@@ -50,6 +53,12 @@ main {
   background-color: rgba(193, 215, 225, 0.8);
 }
 
+section {
+  padding: 45px 90px;
+
+  height: 100vh;
+  border: 1px dashed #34495e;
+}
 footer {
   background-color: rgba(193, 215, 225, 0.8);
 }
@@ -67,6 +76,31 @@ footer {
   }
   header .dos {
     justify-content:center;
+  }
+  
+nav {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  font-size: 1.25rem;
+}
+  nav {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    font-size: 1.25rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    
+  }
+  
+  nav li {
+    padding: 5px 10px;
   }
 
   header .dos img {
